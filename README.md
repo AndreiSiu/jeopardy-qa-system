@@ -1,4 +1,4 @@
-# Jeopardy Question ANswering System
+# Jeopardy Question Answering System
 
 ## Overview
 This project simulates IBM Watson's Jeopardy challenge by processing and answering Jeopardy-style questions. It uses Apache Lucene, a high-performance, full-featured text search engine library written in Java, as its Information Retrieval (IR) backbone.
