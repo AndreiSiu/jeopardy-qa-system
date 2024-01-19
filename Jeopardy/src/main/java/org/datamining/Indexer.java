@@ -36,7 +36,7 @@ public class Indexer {
             config.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
             writer = new IndexWriter(indexDirectory, config);
 
-            File folder = new File("Jeopardy\\src\\main\\resources\\wikipediaPages");
+            File folder = new File("..\\DataSets\\wikipediaPages");
             for (File fileEntry : folder.listFiles()) {
                 System.out.println("Working on file: " + fileEntry.getName());
                 indexFile(fileEntry);
